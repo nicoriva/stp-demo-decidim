@@ -1,0 +1,21 @@
+{
+  "name": "pasantia1",
+  "private": true,
+  "dependencies": {
+    "@decidim/browserslist-config": "^0.27.3",
+    "@decidim/core": "^0.27.3",
+    "@decidim/elections": "^0.27.3",
+    "@decidim/webpacker": "^0.27.3"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@decidim/dev": "^0.27.3",
+    "@decidim/eslint-config": "^0.27.3",
+    "@decidim/stylelint-config": "^0.27.3",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "browserslist": [
+    "extends @decidim/browserslist-config"
+  ]
+}
