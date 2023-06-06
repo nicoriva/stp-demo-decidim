@@ -5,3 +5,65 @@
 // To override CSS variables or Foundation settings use _decidim-settings.scss
 //
 // By default this is empty.
+
+.title-bar {
+    padding: 2rem 0.5rem;
+    background: #FFFFFF;
+    color: black;
+}
+
+.topbar__dropmenu > ul > li > a {
+    color: black;
+}
+.topbar__admin__link a {
+    color: black;
+}
+.topbar__search input {
+    background: #e7e7e7;
+    color:black
+}
+.topbar__search:not(:focus-within) button {
+    background: #FCA311;
+}
+.topbar__search input {
+    color: black;
+}
+.navbar {
+    background: #FFFFFF;
+}
+.main-nav__link--active a {
+    box-shadow: inset 4px 0 0 0 #FCA311;
+    color: black;
+    background:#FFFFFF;
+}
+.main-nav__link a {
+    color:black;
+}
+.topbar__notifications .icon, .topbar__conversations .icon {
+    fill: black;
+    opacity: 0.9;
+}
+.button, .meeting-polls__button {
+    position: relative;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo-wrapper img {
+    max-height: 60px;
+}
+.topbar__user__login a {
+    color: black;
+    font-weight: 600;
+}
+.home-bullet__icon svg {
+    width: 30px;
+    height: 30px;
+    stroke: var(--primary);
+    fill: none;
+}
+.hero__container {
+    padding: 8rem 0;
+}
+.topbar__dropmenu > ul > li > a::after {
+    border-top-color: black !important;
+}
