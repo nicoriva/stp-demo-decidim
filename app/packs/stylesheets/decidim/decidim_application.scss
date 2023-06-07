@@ -6,6 +6,7 @@
 //
 // By default this is empty.
 
+
 .title-bar {
     padding: 2rem 0.5rem;
     background: #FFFFFF;
@@ -39,9 +40,8 @@
 .main-nav__link a {
     color:black;
 }
-.topbar__notifications .icon, .topbar__conversations .icon {
-    fill: black;
-    opacity: 0.9;
+.main-nav__link a:hover {
+    color:#FCA311;
 }
 .button, .meeting-polls__button {
     position: relative;
@@ -66,4 +66,8 @@
 }
 .topbar__dropmenu > ul > li > a::after {
     border-top-color: black !important;
+}
+.topbar__notifications.is-active .icon, .topbar__conversations.is-active .icon {
+    fill: black;
+    opacity: 0.9;
 }
