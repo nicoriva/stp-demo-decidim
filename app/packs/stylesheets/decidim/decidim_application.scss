@@ -43,6 +43,10 @@
 .main-nav__link a:hover {
     color:#FCA311;
 }
+.topbar__notifications .icon, .topbar__conversations .icon {
+    fill: black;
+    opacity: 0.9;
+}
 .button, .meeting-polls__button {
     position: relative;
     background-color: #FCA311;
@@ -69,5 +73,7 @@
 }
 .topbar__notifications.is-active .icon, .topbar__conversations.is-active .icon {
     fill: black;
-    opacity: 0.9;
+}
+.topbar__notifications .icon, .topbar__conversations .icon {
+    fill: black;
 }
