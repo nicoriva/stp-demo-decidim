@@ -22,7 +22,7 @@ Todos las herramientas necesarias y el paso a paso de como instalar Decidim en l
 ## Uso
 
   Se recomienda el uso en Ubuntu 22.04.1 LTS
-Una vez terminada la instalación con el [Manual de Instalacion](https://docs.decidim.org/en/develop/install/manual). Y clonado este repositorio:
+  Termine la instalación con el [Manual de Instalacion](https://docs.decidim.org/en/develop/install/manual). Y clone este repositorio:
 ```
 git clone https://github.com/nicoriva/stp-demo-decidim.git
 cd stp-demo-decidim
@@ -50,7 +50,6 @@ bin/rails db:create db:migrate
 *Importar base de datos de la demo:*
 ```
 psql -U pasantia1 -d pasantia1_development -f backup.sql
-
 ```
 ### Iniciar Servidor
 Para iniciar el servidor localmente ejecute:
