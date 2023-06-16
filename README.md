@@ -22,6 +22,7 @@ Todos las herramientas necesarias y el paso a paso de como instalar Decidim en l
 ## Uso
 
   Se recomienda el uso en Ubuntu 22.04.1 LTS
+  
   Termine la instalación con el [Manual de Instalacion](https://docs.decidim.org/en/develop/install/manual). Y clone este repositorio:
 ```
 git clone https://github.com/nicoriva/stp-demo-decidim.git
@@ -61,9 +62,19 @@ Por defecto el servidor estará ejecutándose en http://localhost:3000/ puede vi
 *Empezara a compilar por lo puede tardar un poco en cargar la primera vez*
 
 Luego se encontrara en la pagina principal.
-Puede ingresar como usuario administrador para poder acceder al panel de administrador.
+Puede ingresar como usuario administrador para poder acceder al panel y editar la pagina.
 
  - Correo administrador: admin@stp.gov.py 
  - Contraseña: decidim_pout123456789
+Ya tiene su Demo lista 🎉 🎉
+
+Si desea acceder al administrador de sistema ingrese a  http://localhost:3000/system
+ - Correo administrador: admin@stp.gov.py 
+ - Contraseña: pout123456789
+
+## Otros recursos
+- Esta demo esta configurada para permitir el uso de [NGROK](https://ngrok.com/docs/getting-started/) que es una herramienta de uso gratuito que  permite exponer nuestro entorno local a la web.
+
+- [Video](https://www.youtube.com/watch?v=ZH-kjd-MIm0&t=4135s&ab_channel=GirlsCode) guiado de la instalación de Decidim.
 
 
