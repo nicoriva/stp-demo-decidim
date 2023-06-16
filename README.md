@@ -66,6 +66,7 @@ Puede ingresar como usuario administrador para poder acceder al panel y editar l
 
  - Correo administrador: admin@stp.gov.py 
  - Contraseña: decidim_pout123456789
+
 Ya tiene su Demo lista 🎉 🎉
 
 Si desea acceder al administrador de sistema ingrese a  http://localhost:3000/system
