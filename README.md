@@ -65,13 +65,13 @@ Luego se encontrara en la pagina principal.
 Puede ingresar como usuario administrador para poder acceder al panel y editar la pagina.
 
  - Correo administrador: admin@stp.gov.py 
- - Contraseña: decidim_pout123456789
+ - Contraseña: decidim_pout12345678
 
 Ya tiene su Demo lista 🎉 🎉
 
 Si desea acceder al administrador de sistema ingrese a  http://localhost:3000/system
  - Correo administrador: admin@stp.gov.py 
- - Contraseña: pout123456789
+ - Contraseña: pout12345678
 
 ## Otros recursos
 - Esta demo esta configurada para permitir el uso de [NGROK](https://ngrok.com/docs/getting-started/) que es una herramienta de uso gratuito que  permite exponer nuestro entorno local a la web.
